@@ -15,7 +15,6 @@ class Customer(models.Model):
     def __str__(self):
         return self.user.first_name
 
-
 class Product(models.Model):
     name=models.CharField(max_length=40)
     product_image= models.ImageField(upload_to='product_image/',null=True,blank=True)

@@ -252,8 +252,6 @@ def add_to_cart_view(request,pk):
 
     return response
 
-
-
 # for checkout of cart
 def cart_view(request):
     #for cart counter
